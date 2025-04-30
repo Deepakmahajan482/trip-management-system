@@ -10,6 +10,7 @@
   /* background-color:rgb(198, 152, 241); */
   padding: 34px;
   margin: auto;
+  
 }
 .container h1,h3,p{
   text-align: center;
@@ -22,6 +23,8 @@ form{
   flex-direction: column;
   align-items: center;
 }
+
+
 input,textarea{
   justify-content: center;
   width: 80%;
@@ -43,11 +46,15 @@ input,textarea{
 }
 
 .bg{
-  position:absolute;
+
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: -1;
-  opacity: 0.7;
   height: 100%;
+  object-fit: cover;  /* Makes the image behave like a background */
+  z-index: -1;        /* Puts it behind the content */
+  opacity: 0.7;   
 }
 
 .submitmsg{

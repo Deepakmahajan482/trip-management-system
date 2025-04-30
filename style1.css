@@ -1,0 +1,46 @@
+*{
+  font-family: 'Sriracha';
+}
+img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Makes the image behave like a background */
+  z-index: -1;        /* Puts it behind the content */
+  opacity: 0.7;   
+}
+h1{
+  text-align: center;
+}
+.container{
+  width:70%;
+  height: 200px;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.btn{
+  background-color:rgba(230, 196, 173, 0.736);
+  padding: 100px;
+  margin: 50px;
+  border: none;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: em; */
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(221, 149, 86);
+}
+.btn a
+{
+  text-decoration: none;
+  color: white;
+
+}

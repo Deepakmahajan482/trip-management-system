@@ -53,11 +53,13 @@ mysqli_close($con);
     <input type="text" name="gender" id="gender" placeholder="enter your gender" required>
     <input type="" name="age" id="age" placeholder="enter your  age" required>
     <input type="phone" name="phone" id="phone" placeholder="enter your phone" required>
-    <textarea name="desc" id="desc" cols="30" rows="5" placeholder="enter any other information here"></textarea>
+    <textarea name="desc" id="desc" cols="30" rows="2" placeholder="enter any other information here"></textarea>
     <button class="btn">Submit</button>
-    
+  
+  </form> 
+  
+  
 
-  </form>
 </div>
   
 </body>
